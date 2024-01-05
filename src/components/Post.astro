@@ -1,9 +1,9 @@
 ---
-import { CollectionEntry } from 'astro:content'
+import { type CollectionEntry } from 'astro:content'
 import { Image } from 'astro:assets' 
 
 type Props = {
-    post: CollectionEntry<'post'>
+    post: CollectionEntry<'posts'>
 }
 
 const { post } = Astro.props
